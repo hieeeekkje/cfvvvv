@@ -1,10 +1,3 @@
---[[
-
-		Gui2Lua™
-		10zOfficial
-		Version 1.0.0
-
-]]
 local r = game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
 local h = game.Workspace.SecureParts.AdminPads:FindFirstChild("Touch to get admin"):FindFirstChild("Head")
 if r and h then
@@ -13,10 +6,6 @@ if r and h then
         wait(0.1) -- Adjust the delay as needed
     end
 end
-
-
--- Instances
-
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
